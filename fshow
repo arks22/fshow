@@ -1,4 +1,4 @@
-!#/bin/sh
+#!/bin/zsh
 
 fshow() {
   git log --graph --color=always \
@@ -10,3 +10,5 @@ fshow() {
                 {}
 FZF-EOF"
 }
+
+fshow()
